@@ -6,15 +6,15 @@
 **R-Format**
 
  |Opcode | Rs  | Rt | Rd  | Shamt | Funct  |
-|----- | ----- | ----- | ----- | ----- | ----- |
-| (6bit) | (5bit) | (5bit) | (5bit) | (5bit) |(6bit) |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| (6bit) | (5bit) | (5bit) | (5bit) | (5bit) | (6bit) |
 
 <br> คำสั่งในประเภท R-Format เป็นคำสั่งที่ให้ในการคำนวณทางคณิตศาตร์ บวก ลบ คูณ หาร ฯลฯ
 
 **I-Format**
 
-| Opcode | Rs  | Rt | value or offset  |
-|----- | ----- | ----- | ----- |
+| Opcode |  Rs   | Rt    | value or offset  |
+| -----  | ----- | ----- | ----- |
 | (6bit) | (5bit) | (5bit) | (16bit) | 
 
 * [CLIP1](https://youtu.be/h8Iu4MPJTW8) คำสั่งการบวก
