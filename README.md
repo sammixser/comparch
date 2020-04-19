@@ -5,19 +5,17 @@
  
 **R-Format**
 
-|Opcode | Rs  | Rt | Rd  | Shamt | Funct  |
+ |Opcode | Rs  | Rt | Rd  | Shamt | Funct  |
 |----- | ----- | ----- | ----- | ----- | ----- |
-|(6bit) | (5bit) | (5bit) | (5bit) | (5bit) |(6bit) |
+| (6bit) | (5bit) | (5bit) | (5bit) | (5bit) |(6bit) |
 
 <br> คำสั่งในประเภท R-Format เป็นคำสั่งที่ให้ในการคำนวณทางคณิตศาตร์ บวก ลบ คูณ หาร ฯลฯ
 
 **I-Format**
 
-| Heading 1 | Heading 2 | Heading 3 |
-| --------- | --------- | --------- |
-| Row 1, column 1 | Row 1, column 2 | Row 1, column 3|
-| Row 2, column 1 | Row 2, column 2 | Row 2, column 3|
-| Row 3, column 1 | Row 3, column 2 | Row 3, column 3|
+| Opcode | Rs  | Rt | value or offset  |
+|----- | ----- | ----- | ----- |
+| (6bit) | (5bit) | (5bit) | (16bit) | 
 
 * [CLIP1](https://youtu.be/h8Iu4MPJTW8) คำสั่งการบวก
    <br>**สรุปเนื้อหา** การทำงานในคำสั่่งการบวกใน R-type นั้นประกอบด้วย register 3 ตัว คือ $1(rd), $2(rs), $3(rt) ซึ่งทั้ง 3 ตัวนี้มีหน้าที่ในการเก็บค่าของตัวเลขค่าหนึ่งๆ คำสั่งนี้มักจะเขียนอยู่ในรูป | **ADD $1, $2, $3** | การทำงานของคำสั่งนี้คือ นำ $2 ไปบวกกับ $3 แล้วนำผลลัพธ์ที่ได้มาเก็บลงใน $1
