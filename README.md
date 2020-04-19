@@ -1,4 +1,4 @@
-# comparch
+# CN210
 # computer-architecture
 ## MIPS Instruction format
  มี 3 ประเภท
@@ -7,7 +7,6 @@
 
 |Opcode <br>(6bit) | Rs <br>(5bit) | Rt <br>(5bit) | Rd <br>(5bit) | Shamt <br>(5bit) | Funct <br>(6bit) |
 |----- | ----- | ----- | ----- | ----- | ----- |
-| (6bit) | (5bit) | (5bit) | (5bit) | (5bit) | (6bit) |
 
 <br> คำสั่งในประเภท R-Format เป็นคำสั่งที่ให้ในการคำนวณทางคณิตศาตร์ บวก ลบ คูณ หาร ฯลฯ
 
