@@ -27,11 +27,11 @@
 
 <br> ตำสั่งใน J-Format เป็นคำสั่งให้ jump ไปทำงานที่ตำแหน่งที่ต้องการ
 
-## Single-Cycle
+## Singlecycle Processor
 ![image](https://media.discordapp.net/attachments/258944901260115974/701424529032871976/image0.png?width=1026&height=412)
 single-cycle เป็นกระบวนการทำงานที่ทำงานในคำสั่งหนึ่งๆให้จบภายใน 1 cycle หรือ 1 รอบ
 
-## Multi-Cycle
+## Multicycle Processor
 ![image](https://media.discordapp.net/attachments/258944901260115974/701426221803634758/image0.png?width=1026&height=410)
 multi-cycle เป็นกระบวนกาทำงานในคำสั่งหนึ่งๆไม่จบใน 1 cycle หรือ 1 รอบ ใน multi-cycle นี้จะมีการทำงานในคำสั่งหนึ่งๆมากกว่า 1 รอบ และไม่เกิน 5 รอบ
 ![image](https://media.discordapp.net/attachments/258944901260115974/701426222093172792/image1.png?width=1026&height=432)
