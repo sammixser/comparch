@@ -5,7 +5,7 @@
  
 **R-Format**
 
- |Opcode | Rs  | Rt | Rd  | Shamt | Funct  |
+|Opcode | Rs  | Rt | Rd  | Shamt | Funct  |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | (6bit) | (5bit) | (5bit) | (5bit) | (5bit) | (6bit) |
 
