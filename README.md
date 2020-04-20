@@ -43,7 +43,7 @@ multi-cycle เป็นกระบวนกาทำงานในคำส�
 <br> -Single-clock cycle instructions
 <br> -Highly pipelined
 <br> -Program code size large
-**Harvard architecture**
+<br>**Harvard architecture**
 <br>![image](https://media.discordapp.net/attachments/258944901260115974/701699446651486228/unknown.png?width=449&height=362)
 
 * CISC (Complex Instruction Set Computer)
@@ -52,7 +52,7 @@ multi-cycle เป็นกระบวนกาทำงานในคำส�
 <br> -Multi-clock cycle instructions
 <br> -Less to no pipelined
 <br> -Program code size smalll
-**Von Neuman architecture**
+<br>**Von Neuman architecture**
 <br>![image](https://media.discordapp.net/attachments/258944901260115974/701700512944226404/unknown.png?width=410&height=319)
 
 * [CLIP1](https://youtu.be/h8Iu4MPJTW8) คำสั่งการบวก
