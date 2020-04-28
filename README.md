@@ -119,6 +119,7 @@ Instruction Pipelining คือ การใช้ pipelining เพื่อ�
    <br> **T4**  นำค่า ALUOut ไปเก็บใน register $rd
    
    |RegWrite=1|นำค่า ALUOut ที่ได้มาเก็บทีท register B|
+   |---------|----------|
    |MemtoReg=0|ก็คือ ค่า ALUOut|
    |RegDst=1|คือ register $rd|
 
